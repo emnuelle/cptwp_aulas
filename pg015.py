@@ -1,15 +1,27 @@
 # Realizando uma equação do segundo grau
-# Fórmula ax2+bx+c=0
 
-print("Digite o coeficiente quadrático (a): ")
+# a=3, b=7, c=2, x1=2, x2=0.3
+
+import math
+
+print("informe o valor de a: ")
 a = int(input())
 
-print("Digite o coeficiente linear (b): ")
+print("Informe o valor de b: ")
 b = int(input())
 
-print("Digite o coeficiente constante (c): ")
+print("informe o valor de c: ")
 c = int(input())
 
-x = (( a * x ** 2) + ( b * x ) + c " = " 0)
+(delta) = (b * b) - (4 * a * c)
+
+print("O valor de delta é: ", delta)
+
+x2 = (-b + math.sqrt(delta)) / (2 * a)
+y1 = (-b - math.sqrt(delta)) / (2 * a)
+
+print("Seu valor de X é: ", x2)
+print("Seu valor de Y é: ", y1)
+
 
 
