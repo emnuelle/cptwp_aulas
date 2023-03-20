@@ -10,9 +10,9 @@ media = float(input())
 if media >= 6 :
     print("Parabéns, vocês está aprovado!")
 else :
-    if media <= 5.9 :
+    if media >= 5.0 :
         print("Você está de recuperação, fique de olho nas novas avaliações!")
-    if media < 5 :
+    elif media < 5 :
         print("Você foi reprovado! Tente de novo")
 
 print("FIM!")
