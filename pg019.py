@@ -9,7 +9,6 @@ media = int(input())
 if media >= 6 : 
     print("Parabéns, você foi aprovado!")
 else : 
-    if media < 6 :
         print("Reprovado! Tente fazer melhor da próxima vez :)")
 
 print("FIM!")

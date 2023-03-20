@@ -2,11 +2,15 @@
 # SW = "Que a força esteja com você!"
 # ST = "Vida longa e próspera!" 
 
-print("Star Wars ou Star Trek?")
-filme = input()
+opcao = 0 
+print("escolha: ")
+print("(1) Star Wars")
+print("(2) Star Trek")
+opcao = int(input())
 
-if filme == "Star Wars" :
-    print("Que a força esteja com você!")
+if opcao == 1 :
+    print("Que a froça esteja com você!")
 else :
-    if "Star Trek" :
-        print("Vida longa e próspera!")
+    print("Vida longa e próspera!")
+
+print("FIM :P")
